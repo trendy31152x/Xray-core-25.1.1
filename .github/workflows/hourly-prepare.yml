@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
   schedule:
     # Update assets on every hour (xx:30)
-    - cron: '30 * * * *'
-  push:
+#    - cron: '30 * * * *'
+#  push:
     # Prevent triggering update request storm
     paths:
       - ".github/workflows/hourly-prepare.yml"
