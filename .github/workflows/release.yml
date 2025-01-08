@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   release:
     types: [published]
-  push:
+#  push:
   pull_request:
     types: [opened, synchronize, reopened]
 
