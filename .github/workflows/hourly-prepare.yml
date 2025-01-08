@@ -7,7 +7,7 @@ name: Timely assets update
 
 on:
   workflow_dispatch:
-  schedule:
+#  schedule:
     # Update assets on every hour (xx:30)
 #    - cron: '30 * * * *'
 #  push:
